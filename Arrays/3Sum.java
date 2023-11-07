@@ -25,6 +25,10 @@ Input: nums = [0,0,0]
 Output: [[0,0,0]]
 Explanation: The only possible triplet sums up to 0.*/
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
